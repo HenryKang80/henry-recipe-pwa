@@ -1,6 +1,7 @@
-// Henry의 레시피 앱 기본 코드 구조 (React 기반)
-// 메인 화면: 앱 대표 이미지, 저장된 레시피 리스트, 레시피 추가 버튼
-// 레시피 추가는 별도 뷰로 전환
+export default function RecipeApp() {
+  const [title, setTitle] = useState('');
+  const [category, setCategory] = useState('');
+
 
 import React, { useState } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
